@@ -1,8 +1,12 @@
+@import url(style/header.css);
+
 :root{
-     --cor-de-fundo: branco
+     --cor-de-fundo: #cacaca;
 
 }
 
-body {}
-    background color: var (--cor de fundo);
+body {
+     background-color: var (--cor de fundo);
+}
+    
     
