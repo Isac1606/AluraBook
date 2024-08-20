@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBook</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 
 
 <body>
   <header class="cabeçalho">
 
-                <div class="container">
-                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-                    <img src="img/Logo.svg" alt="logo da AluraBook" class="container__imagem">
-                </div>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__imagem">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="menu-lista">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">Programação</li>  
+                <li class="lista-menu__item">Front-End</li>  
+                <li class="lista-menu__item">Infraestrutura</li>
+                <li class="lista-menu__item">Business</li>
+                <li class="lista-menu__item">Design & UX</li>
+            </ul>
+            
+            <img src="img/Logo.svg" alt="logo da AluraBook" class="container__imagem">]
+        </div>
         
                 <div class="container">
     <a href="#"><img src="IMG/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"> </a>
